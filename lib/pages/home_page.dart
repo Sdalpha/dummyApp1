@@ -1,4 +1,3 @@
-
 // ignore_for_file: prefer_const_constructors
 
 import 'package:flutter/material.dart';
@@ -15,8 +14,11 @@ class HomePage extends StatelessWidget {
         title: Text("CodeBase"),
       ),
       body: Center(
-          child:
-              Container(child: Text("Welcome to my Flutter project of $name"))),
+          child: Container(
+              child: Text(
+        "Welcome to my Flutter project",
+        style: TextStyle(fontSize: 10),
+      ))),
       drawer: Drawer(
         child: ListView(
           padding: EdgeInsets.zero,
