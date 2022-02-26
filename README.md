@@ -1,6 +1,6 @@
 # learn
 
-A new Flutter project.
+My First Flutter Project.
 
 ## Getting Started
 
